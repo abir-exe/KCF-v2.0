@@ -3,7 +3,7 @@
 const Distributors = () => {
     return (
         <div>
-            This is distributors
+            This is distributors Layout
         </div>
     );
 };
