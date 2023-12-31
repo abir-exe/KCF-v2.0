@@ -11,8 +11,8 @@ const Navbar = () => {
                 </div>
                 <ul className="flex flex-wrap md:flex-row lg:flex-row justify-between gap-5 text-sm">
                     <li><button
-                            className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
-                                href="#home">HOME</a></button></li>
+                            className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><Link
+                               to="/">HOME</Link></button></li>
                     <li><button
                             className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"><a
                                 href="#wwd">WHAT WE DO</a></button></li>
