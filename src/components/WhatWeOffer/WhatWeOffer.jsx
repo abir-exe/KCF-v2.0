@@ -1,18 +1,19 @@
+/* eslint-disable react/no-unescaped-entities */
 
 
 const WhatWeOffer = () => {
   return (
-    <div id="wwo" className=" md:mb-20">
+    <div id="wwo" className=" md:mb-20 text-justify">
       <section className="mt-12 p-5">
         <div className="text-4xl text-center bg-blue-100 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">What We Offer</div>
 
-        <div className="cardcontainer grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-24">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-24">
           {/* Card 1 */}
           <div className="rounded-xl bg-slate-200 shadow-xl">
             <div className="card-body">
               <h2 className="card-title">KCF Consultancy</h2>
               <p className="mt-4">
-                KCF Consultancy BORNED with the nurturing of a group of experts in Drug -Design and Synthesis, Industrial Process Research and Development followed by Synthesis... <br />
+                KCF Consultancy born with the nurturing of a group of experts in Drug -Design and Synthesis, Industrial Process Research and Development followed by Synthesis... <br />
                 <span className="text-sm font-bold italic hover:cursor-pointer" onClick={() => document.getElementById('my_modal_5').showModal()}>read more...</span>
               </p>
             </div>
@@ -61,7 +62,7 @@ const WhatWeOffer = () => {
           </dialog>
 
           {/* Card 3 */}
-          <div className="rounded-xl h-80 bg-slate-500 shadow-xl text-white">
+          <div className="rounded-xl bg-slate-500 shadow-xl text-white">
             <div className="card-body">
               <h2 className="card-title">Automobile Parts Trading</h2>
               <p className="mt-4">
@@ -104,6 +105,37 @@ const WhatWeOffer = () => {
               <h3 className="font-bold text-lg">E-commerce</h3>
               <p className="py-4">
                 Explore a fantastic collection of genuine Japanese products through our unique online store, designed especially for people in Bangladesh. Discover the beauty of Japanese culture, from traditional crafts to modern favorites—all just a click away. <br /> Our dedicated team ensures smooth delivery to Bangladesh and other countries, bringing the best of Japan to your door. Enjoy the authentic charm of Japan, one delightful item at a time!
+              </p>
+              <div className="modal-action">
+                <form method="dialog">
+                  <button className="btn">Close</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+
+          {/* Card 5 */}
+          <div className="rounded-xl bg-slate-800 shadow-xl text-white">
+            <div className="card-body">
+              <h2 className="card-title">Chemical and Medicine ingredients
+</h2>
+              <p className="mt-4">
+              KCF Co. Ltd, as a promissing player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. 
+... <br />
+                <span className="text-sm font-bold italic hover:cursor-pointer" onClick={() => document.getElementById('my_modal_9').showModal()}>read more...</span>
+              </p>
+              <div className="card-actions justify-end mt-5"></div>
+            </div>
+          </div>
+
+          {/* Modal 5 */}
+          <dialog id="my_modal_9" className="modal modal-bottom sm:modal-middle text-black">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Chemical and Medicine ingredients
+</h3>
+              <p className="py-4">
+              KCF Co. Ltd, as a promissing player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. Specializing in the trade of chemical, vaccine, and medicine ingredients, KCF plays a pivotal role in sourcing and distributing high-quality materials from Japan and various other countries. Leveraging Japan's cutting-edge technological advancements and stringent quality standards, KCF ensures that the ingredients it supplies meet the highest regulatory requirements, adhering to the principles of efficacy and safety.
+
               </p>
               <div className="modal-action">
                 <form method="dialog">
