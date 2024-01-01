@@ -13,10 +13,10 @@ const Distributors = () => {
         <div className="card  bg-base-100 shadow-xl">
   <figure><img src="https://jsr.co.th/wp-content/uploads/2018/01/YAMAWA-logo.png" alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">Yamawa</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <h2 className="card-title">YAMAWA MFG. Co. Ltd.</h2>
+    <p>Since the foundation of 1923, YAMAWA group has been studying and developing highest quality cutting tools (Taps, Dies, Center Drills and so on) to meet with daily progressing technical needs. With great vision and spirit that we are dedicated to the development of metal working society, we are making daily efforts as a cutting tool specialist.</p>
     <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn btn-outline btn-info ">Visit Website</button>
     </div>
   </div>
 </div>
