@@ -32,11 +32,10 @@ const Footer = () => {
         <nav>
 
           <header className="footer-title mb-4 flex items-center"> Address</header>
-          <a className="link link-hover border-b"><span className="font-bold">Corporate Office:</span> <br />
-            <span className="font-semibold">KCF Co. Ltd. BD:</span> <br />  <FaLocationDot /> House 71, Road-6, West Kawlar Khilkhet, Dhaka-1229, Bangladesh</a>
+          
 
           <a className="link link-hover mt-3 border-b"><span className="font-semibold">Japan Office:</span>
-            <br />
+            
             <FaLocationDot />
             KCF Co. Ltd. Japan <br />
             (Seiken Medical Industry Co. Ltd.) <br />
@@ -49,11 +48,6 @@ const Footer = () => {
             <MdEmail />
             E-mail: h-siddiki@kcfjp.com, m-nabi@kcfjp.com
           </a>
-          <br />
-
-          <a className="link link-hover border-b"><span className="font-bold">Partner Company:</span> <br />
-            <span className="font-semibold">PROSERVE K.K.:</span> <br />  <FaLocationDot /> Kyoto-shi, Sakyo-ku, Takano, Higashihirakicho 1-7-6-301,Japan, 606-8107 <br />
-            <span className="font-semibold">NEXTGEN SOLUTION LTD.:</span> <br />  <FaLocationDot /> 41a Maryland Road Maryland Road, London, England, E15 1JJ</a>
 
         </nav>
       </footer>

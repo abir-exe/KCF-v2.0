@@ -5,7 +5,7 @@ const Distributors = () => {
     return (
         <div className="w-11/12 mx-auto">
             <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mb-12 my-10 py-5 font-bold">
-          Distributors
+          DISTRIBUTOR
         </div>
         {/* timeline  */}
        <div className="grid grid-cols-3 gap-2 m-2 justify-center items-center">

@@ -27,7 +27,7 @@ const Navbar = () => {
                                 href="#wwa" className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400">WHO WE ARE</a></button></li>
                     <li><button
                             >
-                                <Link to="distributors" className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400">DISTRIBUTORS</Link>
+                                <Link to="distributors" className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400">DISTRIBUTOR</Link>
                                 </button></li>
                     <li><button
                             ><Link to="/contact" className="px-2 py-2 md:px-2 md:py-1 lg:px-5 lg:py-2 mt-2 bg-blue-400 text-white rounded-md hover:bg-gray-100 hover:text-blue-400"

@@ -1,10 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-import { FaSchool } from "react-icons/fa";
-
-import { FaLocationDot } from "react-icons/fa6";
-import { BsFillTelephoneFill } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
 
 const Contact = () => {
   return (
