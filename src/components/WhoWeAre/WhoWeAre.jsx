@@ -1,6 +1,6 @@
 import hakim from "../../../public/images/hakim.jpg"
 import kenechi from "../../../public/images/tagawa.jpg"
-import soft from "../../../public/images/soft.jpg"
+// import soft from "../../../public/images/soft.jpg"
 
 const WhoWeAre = () => {
   return (
