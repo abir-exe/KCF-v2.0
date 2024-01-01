@@ -14,7 +14,7 @@ const Distributors = () => {
   <figure><img className="h-40"  src="https://jsr.co.th/wp-content/uploads/2018/01/YAMAWA-logo.png" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">YAMAWA MFG. Co. Ltd.</h2>
-    <p>Since the foundation of 1923, YAMAWA group has been studying and developing highest quality cutting tools (Taps, Dies, Center Drills and so on) to meet with daily progressing technical needs.</p>
+    <p>Since the foundation of 1923, YAMAWA group has been studying and developing highest quality cutting tools (Taps, Dies, Center Drills and so on) to meet with daily progressing technical needs. After its foundation they have been doing some good works</p>
     <div className="card-actions justify-end">
       <a className="btn btn-outline  " href="https://www.yamawa.com/en/
 ">Visit Website</a>
