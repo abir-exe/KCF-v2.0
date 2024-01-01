@@ -42,11 +42,11 @@ const WhoWeAre = () => {
               <p>KCF Japan</p>
             </div>
           </div>
-          <div className=" rounded-xl card-compact  bg-base-200 shadow-xl">
+          <div className=" rounded-xl card-compact bg-base-200  shadow-xl">
             <figure>
               <img
-                className=" h-80 w-full pb-6 rounded-t-xl"
-                src={soft}
+                className=" h-80 w-full pb-6  rounded-t-xl"
+                src={"https://t4.ftcdn.net/jpg/03/59/58/91/360_F_359589186_JDLl8dIWoBNf1iqEkHxhUeeOulx0wOC5.jpg"}
                 alt="Nabi MD Mahmudun"
               />
             </figure>
