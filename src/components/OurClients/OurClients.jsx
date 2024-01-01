@@ -2,8 +2,8 @@
 
 const OurClients = () => {
   return (
-    <div className="my-20">
-      <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-10 py-5 font-bold">
+    <div className="my-40">
+      <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto my-16 py-5 font-bold">
         Our Clients
       </div>
       {/* <Marquee>
@@ -37,7 +37,7 @@ const OurClients = () => {
       </Marquee> */}
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 my-5 w-11/12 mx-auto">
         {/* card  */}
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -49,7 +49,7 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -61,43 +61,43 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-1"
+                className="p-3"
                 src="https://i.ibb.co/SNR1TQw/IR-logo-final.gif"
                 alt="Shoes"
               />
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-1"
+                className="p-3"
                 src="https://i.ibb.co/LtLLQs5/acmeslogo.png"
                 alt="Shoes"
               />
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-1"
+                className="p-3"
                 src="https://i.ibb.co/JvDj4T3/incepta-logo-559225-A536-seeklogo-com.png"
                 alt="Shoes"
               />
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -109,7 +109,7 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -121,7 +121,7 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -133,31 +133,31 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className=""
+                className="p-2"
                 src="https://1000logos.net/wp-content/uploads/2021/07/Jio-Logo.png"
                 alt="Shoes"
               />
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-10"
+                className="p-12"
                 src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Lux_capital_logo.png"
                 alt="Shoes"
               />
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -169,7 +169,7 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
@@ -181,7 +181,7 @@ const OurClients = () => {
             </figure>
           </div>
         </div>
-        <div className="my-10">
+        <div className="">
           {/* card */}
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
