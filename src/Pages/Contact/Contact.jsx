@@ -1,9 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import NavbarElse from "../../components/Navbar/NavbarElse";
+
 
 const Contact = () => {
   return (
-    <div id="education">
+    <div>
+      <NavbarElse></NavbarElse>
       <div className="text-center mb-16">
       <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mt-10 py-5 font-bold">
           OUR LOCATIONS
@@ -54,7 +57,19 @@ const Contact = () => {
       <time className="font-mono italic">Partner Company:</time>
       <div className="text-lg font-black">PROSERVE K.K.:</div>
        Kyoto-shi, Sakyo-ku, Takano, Higashihirakicho 1-7-6-301,Japan, 606-8107 <br />
-            <span className="font-semibold">NEXTGEN SOLUTION LTD.:</span> <br />  41a Maryland Road Maryland Road, London, England, E15 1JJ
+            
+    </div>
+    <hr/>
+  </li>
+  <li >
+    {/* <div className="timeline-middle text-xl">
+      
+    </div> */}
+    <div className="timeline-start md:text-start mb-10">
+      {/* <time className="font-mono italic">Partner Company:</time> */}
+      <div className="text-lg font-black">NEXTGEN SOLUTION LTD.:</div>
+      <span className="font-semibold"></span>  41a Maryland Road Maryland Road, London, England, E15 1JJ
+            
     </div>
     <hr/>
   </li>

@@ -1,6 +1,7 @@
 import ContactUs from "../components/ContactUs/ContactUs";
 
 import Header from "../components/Header/Header";
+import Navbar from "../components/Navbar/Navbar";
 
 import OurClients from "../components/OurClients/OurClients";
 import SuccessStory from "../components/SuccessStory/SuccessStory";
@@ -12,7 +13,7 @@ import WhoWeAre from "../components/WhoWeAre/WhoWeAre";
 const Home = () => {
     return (
         <div id="home" >
-            
+            <Navbar></Navbar>
             <Header></Header>
             <WhatWeDo></WhatWeDo>
             <WhatWeOffer></WhatWeOffer>

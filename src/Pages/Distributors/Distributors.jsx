@@ -1,9 +1,14 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import NavbarElse from "../../components/Navbar/NavbarElse";
+
 
 const Distributors = () => {
     return (
+        <>
+        <NavbarElse></NavbarElse>
         <div className="w-11/12 mx-auto">
+          
             <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mb-12 my-10 py-5 font-bold">
           DISTRIBUTOR
         </div>
@@ -50,6 +55,7 @@ const Distributors = () => {
 </div>
        </div>
         </div>
+        </>
     );
 };
 
