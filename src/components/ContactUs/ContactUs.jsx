@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
+import toast from "react-hot-toast";
 
 const ContactUs = () => {
   function handleInputChange(event) {
@@ -44,12 +45,12 @@ const ContactUs = () => {
       .then(
         (result) => {
           console.log(result.text);
-          result.text && alert('Message Sent!')
+          result.text && toast.success('Message Sent!')
           form.current.reset();
         },
         (error) => {
           console.log(error.text);
-          error.text && alert('Message Not Sent!')
+          error.text && toast.error('Message Not Sent!')
         }
       );
   };
@@ -147,7 +148,7 @@ const ContactUs = () => {
             </label>
           </div>
           <input
-            className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:bg-blue-300 mb-12"
+            className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:cursor-pointer hover:bg-blue-300 mb-12"
             type="submit"
             value="Send"
           />
