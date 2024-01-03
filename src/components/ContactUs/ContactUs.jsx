@@ -1,4 +1,5 @@
-import emailjs from '@emailjs/browser';
+import emailjs from "@emailjs/browser";
+import { useRef } from "react";
 
 const ContactUs = () => {
   function handleInputChange(event) {
@@ -15,26 +16,43 @@ const ContactUs = () => {
     }
   }
 
-  const handleSubmit = e => {
+  const form = useRef();
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    const form = e.target;
-    const name = form.name.value;
-    const email = form.email.value;
-    const subject = form.subject.value;
-    const message = form.message.value;
+    // const form = e.target;
+    // const name = form.name.value;
+    // const email = form.email.value;
+    // const subject = form.subject.value;
+    // const message = form.message.value;
 
+    // const myMessage = {
+    //   name,
+    //   email,
+    //   subject,
+    //   message,
+    // };
+    // console.log(myMessage);
 
-    const myMessage = {
-      name,
-      email,
-      subject,
-      message,
-
-    }
-console.log(myMessage)
-  }
-
-
+    emailjs
+      .sendForm(
+        "service_mmvs2lo",
+        "template_065ufmr",
+        form.current,
+        "EmkhIdO5posmuQHJP"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          result.text && alert('Message Sent!')
+          form.current.reset();
+        },
+        (error) => {
+          console.log(error.text);
+          error.text && alert('Message Not Sent!')
+        }
+      );
+  };
 
   return (
     <div id="cus" className="">
@@ -44,9 +62,7 @@ console.log(myMessage)
         </div>
 
         {/* <!-- input Fields  --> */}
-        <form onSubmit={handleSubmit} className="ml-5"
-          
-        >
+        <form ref={form} onSubmit={handleSubmit} className="ml-5">
           {/* <!-- field1  --> */}
           <div className="form-control w-full max-w-xl">
             <label className="label">
@@ -116,17 +132,25 @@ console.log(myMessage)
               </span>
               <span className="label-text-alt"></span>
             </label>
-            <textarea name="message"
+            <textarea
+              name="message"
               type="text"
-              placeholder="your message(maximum limit = 2000 words)" className="textarea textarea-bordered textarea-lg w-full max-w-full" maxLength={2000}
+              placeholder="your message(maximum limit = 2000 words)"
+              className="textarea textarea-bordered textarea-lg w-full max-w-full"
+              maxLength={2000}
               onChange={handleInputChange}
-              required ></textarea>
+              required
+            ></textarea>
             <label className="label">
               <span className="label-text-alt"></span>
               <span className="label-text-alt"></span>
             </label>
           </div>
-          <input className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:bg-blue-300 mb-12" type="submit" value="Send" />
+          <input
+            className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:bg-blue-300 mb-12"
+            type="submit"
+            value="Send"
+          />
         </form>
       </section>
     </div>
