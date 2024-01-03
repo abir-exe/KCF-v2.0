@@ -1,3 +1,5 @@
+import emailjs from '@emailjs/browser';
+
 const ContactUs = () => {
   function handleInputChange(event) {
     const input = event.target;
@@ -13,6 +15,27 @@ const ContactUs = () => {
     }
   }
 
+  const handleSubmit = e => {
+    e.preventDefault();
+    const form = e.target;
+    const name = form.name.value;
+    const email = form.email.value;
+    const subject = form.subject.value;
+    const message = form.message.value;
+
+
+    const myMessage = {
+      name,
+      email,
+      subject,
+      message,
+
+    }
+console.log(myMessage)
+  }
+
+
+
   return (
     <div id="cus" className="">
       <section id="cu" className="mt-12 px-5">
@@ -21,9 +44,8 @@ const ContactUs = () => {
         </div>
 
         {/* <!-- input Fields  --> */}
-        <form className="ml-5"
-          action="https://formsubmit.co/kagaku.kcf09@gmail.com"
-          method="POST"
+        <form onSubmit={handleSubmit} className="ml-5"
+          
         >
           {/* <!-- field1  --> */}
           <div className="form-control w-full max-w-xl">
@@ -34,7 +56,7 @@ const ContactUs = () => {
               <span className="label-text-alt"></span>
             </label>
             <input
-              name="Name"
+              name="name"
               type="text"
               placeholder="Your Name"
               className="input input-bordered w-full max-w-xl"
@@ -54,7 +76,7 @@ const ContactUs = () => {
               <span className="label-text-alt"></span>
             </label>
             <input
-              name="Email"
+              name="email"
               type="email"
               placeholder="Your Email"
               className="input input-bordered w-full max-w-xl"
@@ -75,7 +97,7 @@ const ContactUs = () => {
               <span className="label-text-alt"></span>
             </label>
             <input
-              name="Subject"
+              name="subject"
               placeholder="Subject"
               className="input input-bordered w-full max-w-xl "
               maxLength={256}
@@ -94,7 +116,7 @@ const ContactUs = () => {
               </span>
               <span className="label-text-alt"></span>
             </label>
-            <textarea name="Message"
+            <textarea name="message"
               type="text"
               placeholder="your message(maximum limit = 2000 words)" className="textarea textarea-bordered textarea-lg w-full max-w-full" maxLength={2000}
               onChange={handleInputChange}
@@ -104,9 +126,7 @@ const ContactUs = () => {
               <span className="label-text-alt"></span>
             </label>
           </div>
-          <button className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:bg-blue-300 mb-12">
-            Send
-          </button>
+          <input className="bg-blue-100 font-semibold text-xl px-32 rounded-lg py-3 hover:text-white hover:bg-blue-300 mb-12" type="submit" value="Send" />
         </form>
       </section>
     </div>
