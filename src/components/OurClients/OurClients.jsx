@@ -1,4 +1,5 @@
 // import Marquee from "react-fast-marquee";
+import cpa from "../../../public/images/cpatos.png"
 
 const OurClients = () => {
   return (
@@ -103,43 +104,7 @@ const OurClients = () => {
             <figure>
               <img
                 className="p-20"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Deutsche_Telekom_2022.svg/640px-Deutsche_Telekom_2022.svg.png"
-                alt="Shoes"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="">
-          {/* card */}
-          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
-            <figure>
-              <img
-                className="p-2"
-                src="https://1000logos.net/wp-content/uploads/2020/08/Atlassian-Logo.png"
-                alt="Shoes"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="">
-          {/* card */}
-          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
-            <figure>
-              <img
-                className=""
-                src="https://cdn.dribbble.com/users/751798/screenshots/16539543/social_mesa_de_trabajo_1_copia_2_4x.jpg"
-                alt="Shoes"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="">
-          {/* card */}
-          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
-            <figure>
-              <img
-                className="p-2"
-                src="https://1000logos.net/wp-content/uploads/2021/07/Jio-Logo.png"
+                src="https://seeklogo.com/images/T/tmss-logo-376F07074E-seeklogo.com.png"
                 alt="Shoes"
               />
             </figure>
@@ -151,31 +116,7 @@ const OurClients = () => {
             <figure>
               <img
                 className="p-12"
-                src="https://upload.wikimedia.org/wikipedia/commons/a/a3/Lux_capital_logo.png"
-                alt="Shoes"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="">
-          {/* card */}
-          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
-            <figure>
-              <img
-                className="p-2"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Telef%C3%B3nica_2021_logo.svg/2560px-Telef%C3%B3nica_2021_logo.svg.png"
-                alt="Shoes"
-              />
-            </figure>
-          </div>
-        </div>
-        <div className="">
-          {/* card */}
-          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
-            <figure>
-              <img
-                className="p-2"
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LG_logo_%282015%29.svg/2560px-LG_logo_%282015%29.svg.png"
+                src="https://upload.wikimedia.org/wikipedia/en/d/dc/Directorate_General_of_Defence_Purchase_logo.png"
                 alt="Shoes"
               />
             </figure>
@@ -187,7 +128,19 @@ const OurClients = () => {
             <figure>
               <img
                 className=""
-                src="https://logowik.com/content/uploads/images/scale3208.jpg"
+                src={cpa}
+                alt="Shoes"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-12"
+                src="https://static.youthop.com/uploads/sites/2/2020/04/bangladesh-govt-logo.jpg"
                 alt="Shoes"
               />
             </figure>
