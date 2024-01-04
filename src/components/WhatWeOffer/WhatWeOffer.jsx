@@ -5,7 +5,7 @@ const WhatWeOffer = () => {
   return (
     <div id="wwo" className=" md:mb-20 text-justify">
       <section className="mt-12 p-5">
-        <div className="text-4xl text-center bg-blue-100 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">What We Offer</div>
+        <div className="text-4xl text-center bg-blue-100 lg:w-1/3 rounded-full m-auto mb-12 py-5 font-bold">What We Offer</div>
 
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-24">
           {/* Card 1 */}

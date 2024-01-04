@@ -58,7 +58,7 @@ const ContactUs = () => {
   return (
     <div id="cus" className="">
       <section id="cu" className="mt-12 px-5">
-        <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">
+        <div className="text-4xl text-center bg-blue-50 lg:w-1/3 rounded-full m-auto mb-12 py-5 font-bold">
           Contact Us
         </div>
 

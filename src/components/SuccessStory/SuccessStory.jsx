@@ -7,7 +7,7 @@ const SuccessStory = () => {
         <div id="successful" className=" md:mt-0 w-10/12 mx-auto bg-white">
             <div className="">
 
-                <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Success
+                <div className="text-4xl text-center bg-blue-50 lg:w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Success
                     Story</div>
                 <div className="space-y-3">
                     <div className="collapse collapse-arrow bg-base-200">

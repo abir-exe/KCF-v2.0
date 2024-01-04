@@ -9,13 +9,13 @@ const Distributors = () => {
         <NavbarElse></NavbarElse>
         <div className="w-11/12 mx-auto">
           
-            <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mb-12 my-10 py-5 font-bold">
+            <div className="text-4xl text-center bg-blue-50 md:w-1/3 w-full mx-auto rounded-full mb-12 my-10 py-5 font-bold">
           DISTRIBUTOR
         </div>
         {/* timeline  */}
-       <div className="grid grid-cols-3 gap-2 m-2 justify-center items-center">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 m-2 justify-center items-center">
         {/* cards */}
-        <div className="card h-96 bg-base-100 shadow-xl">
+        <div className="card lg:h-96 bg-base-100 shadow-xl">
   <figure><img className="h-40"  src="https://jsr.co.th/wp-content/uploads/2018/01/YAMAWA-logo.png" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">YAMAWA MFG. Co. Ltd.</h2>
@@ -27,7 +27,7 @@ const Distributors = () => {
   </div>
 </div>
         {/* cards */}
-        <div className="card  h-96  bg-base-100 shadow-xl">
+        <div className="card  lg:h-96  bg-base-100 shadow-xl">
   <figure><img className="h-40" src="https://www.felisattiutensili.com/wp-content/uploads/2019/04/utensili-nachi-udine-pordenone.jpg" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">NACHI-FUJIKOSHI CORP</h2>
@@ -40,8 +40,8 @@ const Distributors = () => {
   </div>
 </div>
         {/* cards */}
-        <div className="card  h-96  bg-base-100 shadow-xl">
-  <figure><img className="h-40"  src="https://bslbatt.co.za/wp-content/uploads/2022/08/BSL-Icon.png" alt="Shoes" /></figure>
+        <div className="card  lg:h-96  bg-base-100 shadow-xl">
+  <figure><img className="lg:h-40"  src="https://bslbatt.co.za/wp-content/uploads/2022/08/BSL-Icon.png" alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">BSLBATT</h2>
     <p>BSLBATT is a professional lithium-ion battery manufacturer, including R&D and OEM services for more than 20 years. The company takes the development and production of the advanced series "BSLBATT" (best solution lithium battery) as its mission.

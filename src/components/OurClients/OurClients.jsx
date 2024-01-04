@@ -4,7 +4,7 @@ import cpa from "../../../public/images/cpatos.png"
 const OurClients = () => {
   return (
     <div className="my-40">
-      <div className="text-4xl text-center bg-blue-50 w-1/3 rounded-full m-auto my-16 py-5 font-bold">
+      <div className="text-4xl text-center bg-blue-50 lg:w-1/3 rounded-full m-auto my-16 py-5 font-bold">
         Our Clients
       </div>
       {/* <Marquee>

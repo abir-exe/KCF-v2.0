@@ -8,14 +8,14 @@ const Contact = () => {
     <div>
       <NavbarElse></NavbarElse>
       <div className="text-center mb-16">
-      <div className="text-4xl text-center bg-blue-50 w-1/3 mx-auto rounded-full mt-10 py-5 font-bold">
+      <div className="text-4xl text-center bg-blue-50 lg:w-1/3 w-full mx-auto rounded-full mt-10 py-5 font-bold">
           OUR LOCATIONS
         </div>
       </div >
       {/* timeline */}
       
       <div 
-      className="px-40 overflow-hidden">
+      className="px-5 lg:px-40 overflow-hidden">
       <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
   <li >
     <div className="timeline-middle text-xl">
