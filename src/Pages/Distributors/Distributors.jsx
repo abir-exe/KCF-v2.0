@@ -21,7 +21,7 @@ const Distributors = () => {
     <h2 className="card-title">YAMAWA MFG. Co. Ltd.</h2>
     <p>Since the foundation of 1923, YAMAWA group has been studying and developing highest quality cutting tools (Taps, Dies, Center Drills and so on) to meet with daily progressing technical needs. After its foundation they have been doing some good works</p>
     <div className="card-actions justify-end">
-      <a className="btn btn-outline  " href="https://www.yamawa.com/en/
+      <a className="btn btn-outline" target="_blank" href="https://www.yamawa.com/en/
 ">Visit Website</a>
     </div>
   </div>
