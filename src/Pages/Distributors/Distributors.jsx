@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-target-blank */
 /* eslint-disable react/no-unescaped-entities */
 
 import NavbarElse from "../../components/Navbar/NavbarElse";
