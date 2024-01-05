@@ -33,7 +33,7 @@ const Distributors = () => {
     <h2 className="card-title">NACHI-FUJIKOSHI CORP</h2>
     <p>Nachi-Fujikoshi Corp. is a Japanese corporation known for its industrial robots, machining tools and systems and machine components. Nachi-Fujikoshi is listed on the Tokyo Stock Exchange and as of January 2014, comprises 50 companies.</p>
     <div className="card-actions justify-end">
-    <a className="btn btn-outline  " href="https://www.nachi-fujikoshi.co.jp/eng/index.html
+    <a className="btn btn-outline" target="_blank" href="https://www.nachi-fujikoshi.co.jp/eng/index.html
 
 ">Visit Website</a>
     </div>
@@ -47,7 +47,7 @@ const Distributors = () => {
     <p>BSLBATT is a professional lithium-ion battery manufacturer, including R&D and OEM services for more than 20 years. The company takes the development and production of the advanced series "BSLBATT" (best solution lithium battery) as its mission.
 </p>
     <div className="card-actions justify-end">
-    <a className="btn btn-outline  " href="https://www.bsl-battery.com/
+    <a className="btn btn-outline" target="_blank" href="https://www.bsl-battery.com/
 
 ">Visit Website</a>
     </div>
