@@ -1,6 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
 
-
 const WhatWeOffer = () => {
   return (
     <div id="wwo" className=" md:mb-20 text-justify">
@@ -117,11 +116,9 @@ const WhatWeOffer = () => {
           {/* Card 5 */}
           <div className="rounded-xl bg-slate-800 shadow-xl text-white">
             <div className="card-body">
-              <h2 className="card-title">Chemical and Medicine ingredients
-</h2>
+              <h2 className="card-title">Chemical and Medicine ingredients</h2>
               <p className="mt-4">
-              KCF Co. Ltd, as a promissing player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. 
-... <br />
+                KCF Co. Ltd, as a promising player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. ... <br />
                 <span className="text-sm font-bold italic hover:cursor-pointer" onClick={() => document.getElementById('my_modal_9').showModal()}>read more...</span>
               </p>
               <div className="card-actions justify-end mt-5"></div>
@@ -131,11 +128,9 @@ const WhatWeOffer = () => {
           {/* Modal 5 */}
           <dialog id="my_modal_9" className="modal modal-bottom sm:modal-middle text-black">
             <div className="modal-box">
-              <h3 className="font-bold text-lg">Chemical and Medicine ingredients
-</h3>
+              <h3 className="font-bold text-lg">Chemical and Medicine ingredients</h3>
               <p className="py-4">
-              KCF Co. Ltd, as a promissing player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. Specializing in the trade of chemical, vaccine, and medicine ingredients, KCF plays a pivotal role in sourcing and distributing high-quality materials from Japan and various other countries. Leveraging Japan's cutting-edge technological advancements and stringent quality standards, KCF ensures that the ingredients it supplies meet the highest regulatory requirements, adhering to the principles of efficacy and safety.
-
+                KCF Co. Ltd, as a promising player in the pharmaceutical supply industry, has established itself as a key contributor to the global healthcare landscape. Specializing in the trade of chemical, vaccine, and medicine ingredients, KCF plays a pivotal role in sourcing and distributing high-quality materials from Japan and various other countries. Leveraging Japan's cutting-edge technological advancements and stringent quality standards, KCF ensures that the ingredients it supplies meet the highest regulatory requirements, adhering to the principles of efficacy and safety.
               </p>
               <div className="modal-action">
                 <form method="dialog">
@@ -144,9 +139,35 @@ const WhatWeOffer = () => {
               </div>
             </div>
           </dialog>
+
+          {/* New Card 6 */}
+          <div className="rounded-xl bg-slate-600 shadow-xl text-white">
+            <div className="card-body">
+              <h2 className="card-title">Medical Equipments</h2>
+              <p className="mt-4">
+                We specialize in providing high-quality medical equipment from Japan, designed to meet the needs of healthcare professionals. From diagnostic tools to surgical instruments... <br />
+                <span className="text-sm font-bold italic hover:cursor-pointer" onClick={() => document.getElementById('my_modal_10').showModal()}>read more...</span>
+              </p>
+            </div>
+          </div>
+
+          {/* Modal 6 */}
+          <dialog id="my_modal_10" className="modal modal-bottom sm:modal-middle text-black">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Medical Equipments</h3>
+              <p className="py-4">
+                We specialize in providing high-quality medical equipment from Japan, designed to meet the needs of healthcare professionals. From diagnostic tools to surgical instruments, our products are sourced from trusted manufacturers ensuring reliability and precision. Our medical equipment supports hospitals, clinics, and healthcare facilities in providing the best care to their patients. <br /> With our efficient procurement and delivery services, we ensure timely and secure delivery of all our medical products, backed by the highest quality standards in the industry.
+              </p>
+              <div className="modal-action">
+                <form method="dialog">
+                  <button className="btn">Close</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+          
         </div>
       </section>
-
     </div>
   );
 };

@@ -40,8 +40,8 @@ const Contact = () => {
             (Seiken Medical Industry Co. Ltd.) <br />
             1-5-15 Nishitenma, Kita-ku, Osaka-shi, Osaka, Japan, 530-0047 <br />
             
-            Tel: +81-6-7504-4721(land), <br />
-            Mobile : +81-90-3975-3625, +81-80-4394-3943, +81-80-1890-4924  <br />
+            <br />
+            Mobile : +81-90-3975-3625, +81-80-1890-4924  <br />
             Fax: 06-7504-4721
             <br />
             
