@@ -151,7 +151,7 @@ const OurClients = () => {
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-12"
+                className="p-14"
                 src="https://i.ibb.co.com/mFWyHtq/aci-group-logo-BABDEC820-D-seeklogo-com.png"
                 alt="ACI"
               />
@@ -187,7 +187,7 @@ const OurClients = () => {
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-10"
+                className="p-12"
                 src="https://i.ibb.co.com/dcpGNNZ/download.png"
                 alt="protirokkha kroy moha parishad"
               />
@@ -211,7 +211,7 @@ const OurClients = () => {
           <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
             <figure>
               <img
-                className="p-8"
+                className="p-10"
                 src="https://i.ibb.co.com/fCw1bCg/download.png"
                 alt="Civil Aviation"
               />

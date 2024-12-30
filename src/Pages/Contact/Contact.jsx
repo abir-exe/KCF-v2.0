@@ -4,6 +4,8 @@ import NavbarElse from "../../components/Navbar/NavbarElse";
 import emailjs from "@emailjs/browser";
 import { useRef } from "react";
 import toast from "react-hot-toast";
+import Navbar from "../../components/Navbar/Navbar";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 const Contact = () => {
   function handleInputChange(event) {
@@ -60,7 +62,8 @@ const Contact = () => {
 
   return (
         <div>
-          <NavbarElse></NavbarElse>
+          <ScrollToTop></ScrollToTop>
+          <Navbar></Navbar>
           {/* contact us section here  */}
           <div className="w-11/12 mx-auto">
           <section className="mt-12 px-5">

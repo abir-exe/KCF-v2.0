@@ -2,10 +2,12 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import NavbarElse from "../../components/Navbar/NavbarElse";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 const Distributors = () => {
   return (
     <>
+    <ScrollToTop></ScrollToTop>
       <NavbarElse></NavbarElse>
       <div className="w-11/12 mx-auto">
         <div className="text-4xl text-center bg-blue-50 md:w-1/3 w-full mx-auto rounded-full mb-12 my-10 py-5 font-bold">
