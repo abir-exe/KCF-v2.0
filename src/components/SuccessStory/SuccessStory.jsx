@@ -4,7 +4,7 @@
 const SuccessStory = () => {
 
     return (
-        <div id="successful" className=" md:mt-0 w-10/12 mx-auto bg-white">
+        <div className=" md:mt-0 w-10/12 mx-auto bg-white">
             <div className="">
 
                 <div className="text-4xl text-center bg-blue-50 lg:w-1/3 rounded-full m-auto mb-12 py-5 font-bold">Success

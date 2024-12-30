@@ -3,7 +3,7 @@ import cpa from "../../../public/images/cpatos.png"
 
 const OurClients = () => {
   return (
-    <div className="my-40">
+    <div id="clients" className="my-40">
       <div className="text-4xl text-center bg-blue-50 lg:w-1/3 rounded-full m-auto my-16 py-5 font-bold">
         Our Honorable Clients
       </div>
@@ -116,8 +116,8 @@ const OurClients = () => {
             <figure>
               <img
                 className="p-12"
-                src="https://upload.wikimedia.org/wikipedia/en/d/dc/Directorate_General_of_Defence_Purchase_logo.png"
-                alt="Shoes"
+                src="https://i.ibb.co.com/S7LzYWY/walton-logo-8655-B6-D7-F3-seeklogo-com.png"
+                alt="walton"
               />
             </figure>
           </div>
@@ -142,6 +142,78 @@ const OurClients = () => {
                 className="p-12"
                 src="https://static.youthop.com/uploads/sites/2/2020/04/bangladesh-govt-logo.jpg"
                 alt="Shoes"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-12"
+                src="https://i.ibb.co.com/mFWyHtq/aci-group-logo-BABDEC820-D-seeklogo-com.png"
+                alt="ACI"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-12"
+                src="https://i.ibb.co.com/m4HgjFy/radiant-pharmaceuticals-logo-107139-C3-BF-seeklogo-com.png"
+                alt="Radiant"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className=""
+                src="https://i.ibb.co.com/ZG6Jffh/healthcare-pharmaceuticals-1646306545.png"
+                alt="Healthcare Phar. LTD"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-10"
+                src="https://i.ibb.co.com/dcpGNNZ/download.png"
+                alt="protirokkha kroy moha parishad"
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-3"
+                src="https://i.ibb.co.com/jgCtd1r/download.png"
+                alt="Beximco Phar."
+              />
+            </figure>
+          </div>
+        </div>
+        <div className="">
+          {/* card */}
+          <div className="card bg-base-100 shadow-xl h-40 flex justify-center items-center">
+            <figure>
+              <img
+                className="p-8"
+                src="https://i.ibb.co.com/fCw1bCg/download.png"
+                alt="Civil Aviation"
               />
             </figure>
           </div>
